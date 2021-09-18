@@ -70,7 +70,7 @@ blockquote p::after {
     line-height: 80px;
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #eee;
     position: relative;
 }
 .list-item a:hover span {
@@ -79,7 +79,7 @@ blockquote p::after {
     overflow: visible;
 }
 .list-item * {
-    background: #3835fb;
+    background: #3d3d3d;
 }
 .list-item a span {
     width: 0;
@@ -94,6 +94,6 @@ blockquote p::after {
     line-height: 80px;
     box-shadow: 0 40px 80px
         rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
+    transition: 0.5s ease-out;
 }
 /*########################*/
