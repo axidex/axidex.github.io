@@ -5,23 +5,39 @@
     <head>
         <link rel="stylesheet" href="styles/index.css">
         <title>MAIN</title>
+        <style>
+            
+        </style>
+        <script src="scripts/login.js" language="JavaScript"></script>
     </head>
 
     <body>
         <div class=mainmenu>
             <nav class="menu">
                 <ul>
-                  <li><a href="site.html">site</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
-                  <li><a href="tmp.html">tmp</a></li>
+                    <li><a href="site.html">site</a></li>
+                    <li><a href="tmp.html">tmp</a></li>
+                    <li><a href="javascript:login('show');">login</a></li>
+                    <li><a href="tmp.html">tmp</a></li>
+                    <li><a href="tmp.html">tmp</a></li>
+                    <li><a href="tmp.html">tmp</a></li>
+                    <li><a href="tmp.html">tmp</a></li>
                 </ul>
             </nav>
         </div>
-        <br><br>
+        <br>
+        <div id="popupbox"> 
+            <form name="login" action="" method="post">
+            <center>Username:</center>
+            <center><input name="username" size="14" /></center>
+            <center>Password:</center>
+            <center><input name="password" type="password" size="14" /></center>
+            <center><input type="submit" name="submit" value="login" /></center>
+            </form>
+            <br />
+            <a href="javascript:login('hide');">close</a>
+        </div> 
+        <br>
         <header>Main information</header>
 
         <main>
