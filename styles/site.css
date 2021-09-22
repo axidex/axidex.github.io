@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth; 
+}
 body {
     background-image: url(../ext/background.png);
     margin: 0;
@@ -20,6 +23,24 @@ H1 {
 
 P {
     padding-left: 20px;
+}
+
+/*Низ*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+}
+.footer a {
+    -webkit-transition: all linear 0.3s; /*Устанавливаем плавный переход при наведении курсора мыши*/
+     -moz-transition: all linear 0.3s;
+     -ms-transition: all linear 0.3s;
+     -o-transition: all linear 0.3s;
+     transition: all linear 0.3s;
 }
 
 /*Циатата*/
