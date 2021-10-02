@@ -1,0 +1,16 @@
+.center {text-align: center;}
+.tmid {margin: 0px auto;}
+.spanking {
+    text-align: justify;
+}
+.main_info {
+    font-size:150%;
+    font-style: oblique;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+}
+.news_td tr td{
+    width: 20px;
+}
