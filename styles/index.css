@@ -102,3 +102,13 @@ nav ul {
     visibility: hidden; 
 }
 /*#######################################*/
+
+form {
+    padding-top: 100px;
+}
+body form {
+    margin: 5px;
+}
+body div {
+    margin: 5 px;
+}
