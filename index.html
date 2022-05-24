@@ -1,84 +1,60 @@
-<!DOCTYPE HTML>
-<html>
-    <meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Resume</title>
+    <style>
 
-    <head>
-        <link rel="stylesheet" href="styles/index.css">
-        <title>MAIN</title>
-        <style>
-            
-        </style>
-        <script src="scripts/login.js" language="JavaScript"></script>
-    </head>
+    </style>
+    
+</head>
 
-    <body>
-        <a name=begin></a>
-        <div class=topbackground>
-            <div class=mainmenu>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="site.html">Site</a></li>
-                        <li><a href="frameSet.html">FrameSet</a></li>
-                        <li><a href="javascript:login('show');">Login</a></li>
-                        <li><a href="Table.html">Table</a></li>
-                        <li><a href="exam/exam.html">Exam</a></li>
-                        <li><a href="react.html">React</a></li>
-                        <li><a href="Tailwind.html">Tailwind</a></li>
-                    </ul>
-                </nav>
-            </div>
+<div id="inner-nav"></div>
+<div id="container">
+    <div id="profile">
+        <div id="image">
+            <img id="profile-photo" src="ext/smth.jpg" alt="Profile-Image">
+            <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
         </div>
-        <br>
-        <div id="popupbox"> 
-            <form action="connect.php" method="post">
-            <center>Username:</center>
-            <center><input name="username" size="14" /></center>
-            <center>Password:</center>
-            <center><input name="password" type="password" size="14" /></center>
-            <center><input type="submit" name="submit" value="login" /></center>
-            </form>
-            <br />
-            <a href="javascript:login('hide');">close</a>
-        </div> 
-        <br>
-        <header>Main information</header>
-
-        <main>
-            <p>Это мой сайт, где вы можете обнаружить html и css код.</p>
-            <p>...</p>
-        </main>
-        <div class=footer><a href="#begin"><b>Function</b><dfn>&mdash;somthing more than we know</dfn></a></div>
-
-        <div>
-            <input type="text"> text
-            <input type="reset">
+        <p id="name">Dolgintsev Stepan<br><span id="email">stepworm@yandex.ru</span></p>
+        <p id="designation">Student<br><span id="college">Mirea</span></p>
+        <div id="social-links"><a href="https://github.com/axidex"><i class="fab fa-github stroke-transparent"></i></a></i></div>
+        <hr width="100%">
+        <div id="about">
+            <p style="display:inline;">About</p>
+            <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
         </div>
-        <div>
-            <input type="password"> passowrd
-            <input type="submit">
+        <p id="year-graduation">Expected Year of Graduation<br><strong>2025</strong></p>
+        <p id="education">Education<br><strong>Mirea</strong>
+        </p>
+        <p id="more-about">More about me<br><span>C++ programmer</span></p>
+    </div>
+    <div id="info-cards">
+        <div class="card">
+            <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Projects</p>
+            <ul>
+                <li>
+                    <p class="tags">First exam work. Stack and Linear allocators<br><span>Mirea | <span>2021 |</span></span><br><a id="edit-intro" href="https://github.com/axidex/ALLOCATORS">source</a></p>
+                </li>
+                <li>
+                    <p class="tags">Trying to create own game engine<br><span>Hoopoe | <span>2021</span></span><br><a id="edit-intro" href="https://github.com/Hoopoe-Team">source</a></p>
+                </li>
+                <li>
+                    <p class="tags">My previous site for educational purposes<br><span>Mirea | <span>2021</span></span><a id="edit-intro" href="main.html">source</a></p>
+                </li>
+                <li>
+                    <p class="tags">Second exam work. A* algorithm<br><span>Mirea | <span>2021</span></span><a id="edit-intro" href="https://github.com/axidex/AStar">source</a></p>
+                </li>
+            </ul>
         </div>
-        <div>
-            <input type="radio"> radio button
+        <div class="card">
+            <p><i class="fas fa-graduation-cap stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Education</p>
+            <ul>
+                <li>
+                    <p class="tags">Mirea<br><span>Telecomunication Information Security | <span>2025</span></span>
+                    </p>
+                    <a class="edit" href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+                </li>
+            </ul>
         </div>
-        <div>
-            <input type="checkbox"> check
-        </div>
-        <div>
-            <input type="image">
-        </div>
-        <div>
-            <input type="file">
-        </div>
-
-        <form name="quiz" method="post" action="input1.php">
-            <p><b>Ваше имя:</b><br>
-                <input type="text" size="40">
-            </p>
-            <p><b>Каким блокнотом вы пользуетесь:</b><Br>
-                <input type="radio" name="Note" value="vscode"> VS code<Br>
-                <input type="radio" name="Note" value="Notepad++"> Notepad++ <Br>
-                <input type="radio" name="Note" value="Windows notepad"> wNotepad<Br>
-            </p>
-        </form>
-    </body>
-</html>
+    </div>
+</div>

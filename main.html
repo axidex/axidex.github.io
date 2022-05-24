@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+    <meta charset="UTF-8">
+
+    <head>
+        <link rel="stylesheet" href="styles/main.css">
+        <title>MAIN</title>
+        <style>
+            
+        </style>
+        <script src="scripts/login.js" language="JavaScript"></script>
+    </head>
+
+    <body>
+        <a name=begin></a>
+        <div class=topbackground>
+            <div class=mainmenu>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="site.html">Site</a></li>
+                        <li><a href="frameSet.html">FrameSet</a></li>
+                        <li><a href="javascript:login('show');">Login</a></li>
+                        <li><a href="Table.html">Table</a></li>
+                        <li><a href="exam/exam.html">Exam</a></li>
+                        <li><a href="react.html">React</a></li>
+                        <li><a href="Tailwind.html">Tailwind</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <br>
+        <div id="popupbox"> 
+            <form action="connect.php" method="post">
+            <center>Username:</center>
+            <center><input name="username" size="14" /></center>
+            <center>Password:</center>
+            <center><input name="password" type="password" size="14" /></center>
+            <center><input type="submit" name="submit" value="login" /></center>
+            </form>
+            <br />
+            <a href="javascript:login('hide');">close</a>
+        </div> 
+        <br>
+        <header>Main information</header>
+
+        <main>
+            <p>Это мой сайт, где вы можете обнаружить html и css код.</p>
+            <p>...</p>
+        </main>
+        <div class=footer><a href="#begin"><b>Function</b><dfn>&mdash;somthing more than we know</dfn></a></div>
+
+        <div>
+            <input type="text"> text
+            <input type="reset">
+        </div>
+        <div>
+            <input type="password"> passowrd
+            <input type="submit">
+        </div>
+        <div>
+            <input type="radio"> radio button
+        </div>
+        <div>
+            <input type="checkbox"> check
+        </div>
+        <div>
+            <input type="image">
+        </div>
+        <div>
+            <input type="file">
+        </div>
+
+        <form name="quiz" method="post" action="input1.php">
+            <p><b>Ваше имя:</b><br>
+                <input type="text" size="40">
+            </p>
+            <p><b>Каким блокнотом вы пользуетесь:</b><Br>
+                <input type="radio" name="Note" value="vscode"> VS code<Br>
+                <input type="radio" name="Note" value="Notepad++"> Notepad++ <Br>
+                <input type="radio" name="Note" value="Windows notepad"> wNotepad<Br>
+            </p>
+        </form>
+    </body>
+</html>
